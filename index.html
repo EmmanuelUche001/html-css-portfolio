@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="mediaquaries.css" />
+</head>
+<body>
+    <Nav id="desktop-nav">
+        <div class="logo">Emmanuel Okechukwu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </Nav> 
+    <nav id="hanburger-nav">
+        <div class="logo">Emmanuel Okechukwu</div>
+        <div class="hanburger-menu">
+         <div class="hanburger-icon" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+         </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/Ace profile.png" alt="emmanuel profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Emmanuel Okechukwu</h1>
+            <p class="section__text__p2">UI/UX Designer/Frontend Developer</p>
+            <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open ('./Assets/Emmanuel Okechukwu U. CV.pdf')"> Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="linkedin profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/okechukwu-emmanuel-80b11320b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'">
+                <img src="./Assets/github.png" alt="github profile"
+                class="icon" onclick="location.href='https://github.com/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1"> Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img src="Assets/Ace .jpg" alt="profile-pic" class="about-pic">
+        </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Frontend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/education.png" alt="Education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. bachelors Degree <br>M.Sc. Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere numquam a corporis, eaque doloremque porro! Hic, dignissimos eaque quis ullam maiores delectus eligendi illo nihil ducimus consequuntur cumque adipisci voluptas debitis! Eum atque error commodi assumenda maxime. Minus doloribus non consequatur delectus voluptas, id dolorem sit incidunt, voluptatum blanditiis aut.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" height="20rem" alt="Arrow Icon" class="icon-arrow" 
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Css</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">UI/UX</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>User Research</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Wireframing</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Prototyping</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Interaction Design</h3>
+                                <p>Intermidiate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Visual Design</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" height="20rem" alt="Arrow Icon" class="icon-arrow" 
+        onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Resent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/Hemolife.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/204939289/Hemo-Life-AI-driven-Blood-Donation-App'">
+                        Behance
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/PrepItpro.png" alt="project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/204733815/PrepIt-Pro-AI-Educational-App'">
+                        Behance
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./Assets/Attendance.png" alt="project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/208771185/Attendance-Web-App-UI-for-Secondary-Schools'">
+                        Behance
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./Assets/arrow.png" height="20rem" alt="Arrow Icon" class="icon-arrow" 
+        onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:okechukwuemmanuel79@gmail.com">okechukwuemmanuel79@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="http://www.linkedin.com">linkedin Profile</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169:2024 Emmanuel Okechukwu. All Right Reserved</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
