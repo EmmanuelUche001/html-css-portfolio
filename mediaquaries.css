@@ -86,7 +86,7 @@
     }
     .section__pic-container {
         width: auto;
-        height: 46vw;
+        height: 70vw;
         justify-content: center;
     }
     .section__text__p2 {
@@ -97,5 +97,11 @@
     }
     .text-container {
         text-align: justify;
+    }
+    .about-details-container {
+        margin-left: 1rem;
+    }
+    .icon-arrow {
+        margin-right: 2rem;
     }
 }
