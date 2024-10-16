@@ -100,8 +100,9 @@
     }
     .about-details-container {
         margin-left: 1rem;
+        margin-right: 1rem;
     }
     .icon-arrow {
-        margin-right: 2rem;
+        display: none;
     }
 }
