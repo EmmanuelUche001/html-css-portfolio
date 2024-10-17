@@ -14,6 +14,10 @@
         display: none;
     }
 
+    .logo {
+        color: white;
+    }
+
     #hanburger-nav {
         display: flex;
     }
@@ -78,6 +82,7 @@
     }
     .logo {
         font-size: 1.5rem;
+        color: white;
     }
     .nav-links {
         flex-direction: column;
@@ -105,4 +110,5 @@
     .icon-arrow {
         display: none;
     }
+    
 }
